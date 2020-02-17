@@ -5,39 +5,53 @@
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
+
+#map {
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+}
 nav {
     background: #d70001;
     padding: 5px 20px;
 }
+
 ul {
     list-style: none;
     padding-left: 0;
 }
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 .logo a:hover {
     text-decoration: none;
 }
+
 .menu li {
     font-size: 16px;
     padding: 15px 5px;
     white-space: nowrap;
 }
+
 .logo a,
 .toggle a {
     font-size: 20px;
 }
+
 .button.secondary {
     border-bottom: 1px #ffffff solid;
 }
@@ -189,7 +203,7 @@ input[type="submit"] {
 
     .button a {
         padding: 7.5px 15px;
-        background:#8c0000;
+        background: #8c0000;
         border: 1px #ffffff solid;
     }
 
